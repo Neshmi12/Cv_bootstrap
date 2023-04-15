@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curso GIT</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">CV</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="cv.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cont.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Cursos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="html.html">Curso de HTML</a></li>
+                <li><a class="dropdown-item" href="git.html">Curso de GIT</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <h1>CURSO DE GIT</h1>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Basico
+      </figcaption>
+    </figure>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/git-logo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">¿Qué Es GIT?</h2>
+            <p class="card-text"> Git es un sistema de control de versiones distribuido (DVCS) utilizado para guardar diferentes versiones de un archivo (o conjunto de archivos) para que cualquier versión sea recuperable cuando lo desee.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/githist.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Historia De Git</h2>
+            <p class="card-text">El kernel de linux es un proyecto de software de código abierto con un alcance bastante amplio. durante la mayor parte del mantenimiento del kernel de linux (1991-2002), los cambios en el software se realizaban a través de parches y archivos. en el 2002, el proyecto del kernel de linux empezó a usar un DVCS propietario llamado bitkeeper.</p>
+            <p>En el 2005, la relación entre la comunidad que desarrollaba el kernel de linux y la compañía que desarrollaba bitkeeper se vino abajo y la herramienta dejó de ser ofrecida de manera gratuita.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/instalacion.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Instalación</h2>
+            <h4 class="card-text">Windows</h4>
+            <p>La forma más oficial está disponible para ser descargada en el sitio web de git. solo se tiene que visitar http://git-scm.com/download/win y la descarga empezará automáticamente.</p>
+            <p>Otra forma de obtener git fácilmente es mediante la instalación de github para windows. el instalador incluye la versión de línea de comandos y la interfaz de usuario de git. además funciona bien con powershell y establece correctamente "caching" de credenciales y configuración crlf adecuada. se puede descargar este instalador del sitio web de github para windows en http://windows.github.com.</p>
+            <h4>Linux</h4>
+            <p>A través de un instalador binario, en general se puede hacer mediante la herramienta básica de administración de paquetes que trae la distribución. en fedora, puedes usar yum: $ yum install git.</p>
+            <p>Si es una distribución basada en debian como ubuntu, puede usar apt-get: $ apt-get install git.</p>
+            <h4>Mac</h4>
+            <p>La más sencilla es instalando las herramientas xcode de línea de comandos. en mavericks (10.9 o superior) se puede hacer esto desde el terminal si intentas ejecutar git por primera vez. si no se tiene instalado, preguntará si desea instalarlo.</p>
+            <p>Si se desea una versión más actualizada, puede hacerlo a partir de un instalador binario. un instalador de git para osx es mantenido en la página web de git. lo puede descargar en http://git-scm.com/download/mac.</p>
+            <p>Puede instalarlo como parte del instalador de github para mac. su interfaz gráfica de usuario tiene la opción de instalar las herramientas de línea de comandos. puede descargar esa herramienta desde el sitio web de github para mac en http://mac.github.com.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/comandos.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Comandos</h2>
+            <p class="card-text"><a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init#:~:text=The%20git%20init%20command%20creates,run%20in%20a%20new%20project." class="link-primary">Init</a></p>
+            <p><a href="https://www.atlassian.com/git/tutorials/inspecting-a-repository#:~:text=The%20git%20status%20command%20displays,regarding%20the%20committed%20project%20history." class="link-secondary">Status</a></p>
+            <p><a href="https://www.atlassian.com/git/tutorials/using-branches#:~:text=In%20Git%2C%20branches%20are%20a,branch%20to%20encapsulate%20your%20changes." class="link-success">Branch</a></p>
+            <p><a href="https://www.atlassian.com/git/tutorials/using-branches/git-checkout" class="link-danger">Checkout</a></p>
+            <p><a href="https://www.atlassian.com/git/tutorials/syncing#:~:text=The%20git%20remote%20command%20lets,direct%20links%20into%20other%20repositories." class="link-warning">Remote</a></p>
+            <p><a href="https://www.atlassian.com/es/git/tutorials/syncing/git-pull" class="link-info">Pull</a></p>
+            <p><a href="https://www.atlassian.com/es/git/tutorials/syncing/git-push#:~:text=El%20comando%20git%20push%20se,local%20a%20un%20repositorio%20remoto." class="link-primary">Push</a></p>
+            <p><a href="https://www-atlassian-com.translate.goog/git/tutorials/setting-up-a-repository/git-clone?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=sc" class="link-success">Clone</a></p>
+            <p><a href="https://www.atlassian.com/git/tutorials/saving-changes/git-commit#:~:text=The%20git%20commit%20command%20captures,you%20explicitly%20ask%20it%20to." class="link-danger">Commit</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <h1>Referencias Bibliograficas</h1>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Despliegue para ir a la pagina.
+      </figcaption>
+    </figure>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            M. (2023, 9 Febrero). ¿Qué Es Git? - Azure DevOps. Microsoft Learn
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><a href="https://learn.microsoft.com/es-es/devops/develop/git/what-is-git" class="link-secondary">https://learn.microsoft.com/es-es/devops/develop/git/what-is-git</a></div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Git - Una Breve Historia De Git. (S. F.).
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><a href="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Una-breve-historia-de-Git" class="link-secondary">https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Una-breve-historia-de-Git</a>
+        </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Git - Instalación De Git. (S. F.).
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><a href="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git" class="link-secondary">https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git</a></div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
